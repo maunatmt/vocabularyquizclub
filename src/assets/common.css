@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@800&display=swap');
+
+:root {
+  --main-brand-color: #00b5ad;
+  --sub-brand-color: orange;
+  --dark-brand-color: rgb(49, 58, 58);
+  --main-background-color: rgb(242, 240, 236);
+  --main-font-color: #333333;
+  --sub-font-color: #65676b;
+  --main-boxshadow-set: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --main-svg-color: lightGray;
+  --main-button-color: rgb(246, 247, 252);
+  --incorrect-color: red;
+  --link-color: rgb(25, 49, 199);
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: var(--main-background-color);
+}
+
+#app {
+  background-color: var(--dark-brand-color);
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration: none;
+}
+
+#main {
+  width: 90%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: var(--main-boxshadow-set);
+  text-shadow: none;
+  outline: 1px solid var(--main-brand-color);
+	outline-offset: -6px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+th, td {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+th {
+  color: #fff;
+  background: var(--main-brand-color);
+  position: sticky;
+  top: 0;
+  overflow-x: scroll;
+  flex-shrink: 0;
+}
+
+td {
+  padding: 0.5rem 0;
+  text-align: center;
+  border-bottom: 1px solid var(--main-brand-color);
+  background: white;
+}
+
+@media (max-width: 550px) {
+  th {
+    font-size: 0.6rem;
+    padding: 0.5em;
+  }
+}
+
+@media (max-width: 1020px) {
+  #main {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}

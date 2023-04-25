@@ -1,0 +1,3 @@
+User-Agent:*
+Disallow:
+Sitemap: https://https://vocabularyquizclub.vercel.app/sitemap.xml
