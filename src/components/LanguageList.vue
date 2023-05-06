@@ -25,7 +25,7 @@ export default defineComponent({
     const items = ref([]);
 
     const fetchData = async () => {
-      const languages = [ "Chinese", "Dutch", "Estonian", "French", "German", "Greek", "Italian", "Japanese", "Korean", "Latvian", "Lithuanian", "Norwegian", "Polish", "Portuguese", "Russian", "Spanish", "Swedish", "Turkish" ];
+      const languages = [ "Arabic", "Chinese", "Croatian", "Czech", "Dutch", "Estonian", "French", "German", "Greek", "Hebrew", "Hindi", "Italian", "Japanese", "Korean", "Latvian", "Lithuanian", "Norwegian", "Polish", "Portuguese", "Russian", "Spanish", "Swedish", "Turkish" ];
       const responses = await Promise.all(languages.map(language => axios.get(`${language}.json`)));
       const data = responses.map(response => ({ language: response.config.url.replace('.json', ''), count: response.data.length }));
       items.value = data;

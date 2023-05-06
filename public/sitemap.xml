@@ -5,7 +5,22 @@
     <priority>0.9</priority>
 </url>
 <url>
+    <loc>https://freelessonclub.com/Arabic</loc>
+    <lastmod>2023-05-05</lastmod>
+    <priority>1.0</priority>
+</url>
+<url>
     <loc>https://freelessonclub.com/Chinese</loc>
+    <lastmod>2023-05-05</lastmod>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://freelessonclub.com/Croatian</loc>
+    <lastmod>2023-05-05</lastmod>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://freelessonclub.com/Czech</loc>
     <lastmod>2023-05-05</lastmod>
     <priority>1.0</priority>
 </url>
@@ -31,6 +46,16 @@
 </url>
 <url>
     <loc>https://freelessonclub.com/Greek</loc>
+    <lastmod>2023-05-05</lastmod>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://freelessonclub.com/Hebrew</loc>
+    <lastmod>2023-05-05</lastmod>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://freelessonclub.com/Hindi</loc>
     <lastmod>2023-05-05</lastmod>
     <priority>1.0</priority>
 </url>

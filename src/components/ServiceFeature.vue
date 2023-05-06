@@ -242,6 +242,7 @@ export default {
   display: flex;
   align-items:center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 0 2rem;
   width: 80%;
   margin: 1rem auto;
@@ -281,8 +282,19 @@ export default {
   .features-items div {
     flex-basis: 90%;
   }
+
   #service-message p {
     text-align: justify;
+  }
+
+  .reverse div span {
+    flex-basis: 100%;
+  }
+
+  .reverse div span h4 {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
   }
 }
 
