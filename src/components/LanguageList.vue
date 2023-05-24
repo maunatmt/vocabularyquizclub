@@ -1,6 +1,6 @@
 <template>
   <div id="language-list">
-    <div id=language-message>
+    <div id='language-message'>
       <h3>Quiz List</h3>
       <p>The Vocabulary Quiz Club provides you a variety of foreign language courses. Select a language from the list below to start the quiz. Languages and vocabulary will be added from time to time.</p>
     </div>

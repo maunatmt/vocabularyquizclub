@@ -14,7 +14,7 @@ const routes: Array<RouteRecordRaw> = [
     path: '/:language',
     name: 'language',
     component: HomeView,
-    meta: { title: ':language | Vocabulary Quiz Club', desc: 'Improve your foreign language skills with our free vocabulary quiz game! Play now and expand your vocabulary in :language.' }
+    meta: { title: 'World Largest Free :language Vocabulary Quiz Game | Vocabulary Quiz Club', desc: 'Improve your foreign language skills with our free vocabulary quiz game! Play now and expand your vocabulary in :language.' }
   },
   {
     path: '/result',
