@@ -31,9 +31,9 @@
       let route = this.$route;
       this.setMeta(route);
 
-      let externalScript = document.createElement('script')
-      externalScript.setAttribute('src', 'https://consent.cookiebot.com/uc.js?cbid=2788f7e2-e0f0-48bc-a6b4-18571ed6bbf8')
-      document.head.appendChild(externalScript)
+      // let externalScript = document.createElement('script')
+      // externalScript.setAttribute('src', 'https://consent.cookiebot.com/uc.js?cbid=2788f7e2-e0f0-48bc-a6b4-18571ed6bbf8')
+      // document.head.appendChild(externalScript)
     },
     watch: { 
       '$route' (route, from) {
