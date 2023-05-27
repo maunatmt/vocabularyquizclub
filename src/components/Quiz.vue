@@ -64,7 +64,7 @@
   <div id="service-message" >
     <div><span>Learn {{ languageName }} </span><span>with free vocabulary quizzes</span></div>
     <p>Simple four-choice quizzes help you increase your vocabulary of {{ languageName }}</p>
-    <button class="startQuiz" v-if="count < 0 && !($route.path === '/')" v-on:click="start"><span>Start Quiz</span></button>
+    <!-- <button class="startQuiz" v-if="count < 0 && !($route.path === '/')" v-on:click="start"><span>Start Quiz</span></button> -->
   </div>
   <service-feature :language-name="$route.params.language" />
 </template>
@@ -322,6 +322,7 @@
     mounted: function(){
       if (this.$route.path !== '/') {
         this.setQuiz();
+        this.start();
       }
     }
   };
